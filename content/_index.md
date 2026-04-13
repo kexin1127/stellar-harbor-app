@@ -4,52 +4,66 @@ date: 2023-10-24
 type: landing
 
 design:
-  # Default section spacing
   spacing: '4rem'
 
-# Note: `username` refers to the user's folder name in `content/authors/`
-
-# Page sections
 sections:
   - block: biography
     content:
       username: me
-      # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download Résumé
+        text: Download CV
         url: uploads/resume.pdf
     design:
       show_status: false
       spacing:
         padding: ['0', '0', '6rem', '0']
       banner:
-        # Upload your cover image to the `assets/media/` folder and reference it here
-        filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
+        filename: background.jpg
       biography:
-        # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
-      # Avatar customization
       avatar:
-        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: rounded # Options: circle (default), square, rounded
+        size: large
+        shape: rounded
+
+  - block: collection
+    id: papers
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 1
+
+  - block: collection
+    content:
+      title: Recent Publications
+      filters:
+        folders:
+          - publication
+        featured_only: false
+    design:
+      view: citation
+
   - block: experience
+    id: experience
     content:
       username: me
     design:
-      # Hugo date format
       date_format: 'January 2006'
-      # Education or Experience section first?
       is_education_first: false
-  - block: skills
+
+  - block: collection
+    id: projects
     content:
-      title: Skills & Hobbies
-      username: me
-  - block: awards
-    content:
-      title: Awards
-      username: me
-  - block: languages
-    content:
-      title: Languages
-      username: me
+      title: Projects
+      subtitle: ''
+      filters:
+        folders:
+          - project
+    design:
+      view: card
+      columns: 2
 ---
