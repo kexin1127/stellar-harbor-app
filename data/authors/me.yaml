@@ -63,6 +63,17 @@ experience:
       - Reproduced CLIP zero-shot classification and DSAN subdomain alignment, and established a unified workflow for cross-domain image classification experiments.
       - Conducted experiments on Office-31, PACS, and ImageCLEF, analyzing threshold sensitivity and transfer-pair performance across multiple benchmarks.
       - Demonstrated that the proposed fusion strategy consistently matched or outperformed single-model baselines on multiple adaptation tasks.
+  - role: Research Trainee
+    org: Systematic Research Training in Advanced Deep Learning
+    start: 2025-06-01
+    end: 2026-04-30
+    summary: |
+      Supervisor: Prof. Hesheng Wang, Shanghai Jiao Tong University
+
+      - Systematically studied deep learning theory and PyTorch practice, extending to reinforcement learning, imitation learning, Transformer, and Diffusion models.
+      - Completed foundational experiments including MNIST handwritten digit classification and facial expression recognition.
+      - Built a structured understanding of the relationships among machine learning, deep learning, reinforcement learning, and imitation learning.
+      - Studied self-attention and cross-attention in Transformer architectures, as well as core reinforcement learning methods such as DQN and PPO.
 skills:
   - name: Technical Skills
     items:
