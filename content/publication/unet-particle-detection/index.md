@@ -1,5 +1,5 @@
 ---
-title: 'High-Density Particle Cluster Center Detection with Improved U-Net on Simulated TPC Images'
+title: 'Subatomic Particle Center Detection with Heatmap Regression and Enhanced U-Net'
 
 authors:
   - Kexin Xiao
