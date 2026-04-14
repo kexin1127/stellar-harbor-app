@@ -68,12 +68,12 @@ experience:
     start: 2025-06-01
     end: 2026-04-30
     summary: |
-      Supervisor: Prof. Hesheng Wang, Shanghai Jiao Tong University
+     Supervised by Prof. Hesheng Wang, Shanghai Jiao Tong University, with day-to-day mentorship from a senior Ph.D. student in the lab
 
-      - Systematically studied deep learning theory and PyTorch practice, extending to reinforcement learning, imitation learning, Transformer, and Diffusion models.
-      - Completed foundational experiments including MNIST handwritten digit classification and facial expression recognition.
-      - Built a structured understanding of the relationships among machine learning, deep learning, reinforcement learning, and imitation learning.
-      - Studied self-attention and cross-attention in Transformer architectures, as well as core reinforcement learning methods such as DQN and PPO.
+     - Systematically studied deep learning theory and PyTorch practice, extending to reinforcement learning, imitation learning, Transformer, and Diffusion models.
+     - Completed foundational experiments including MNIST handwritten digit classification and facial expression recognition.
+     - Built a structured understanding of the relationships among machine learning, deep learning, reinforcement learning, and imitation learning.
+     - Studied self-attention and cross-attention in Transformer architectures, as well as core reinforcement learning methods such as DQN and PPO.
 skills:
   - name: Technical Skills
     items:
